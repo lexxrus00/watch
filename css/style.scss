@@ -110,6 +110,10 @@ html {
         color: #161515;
 
         margin-bottom: 53px;
+
+        @media(max-width: 1087px) {
+            font-size: 16px;
+        }
     }
 
     // .watch__text-large
@@ -123,7 +127,9 @@ html {
 
         margin-bottom: 43px;
 
-        @media(max-width: 1087px) {}
+        @media(max-width: 1087px) {
+            font-size: 140px;
+        }
     }
 
     // .watch__info
@@ -138,6 +144,10 @@ html {
         max-width: 575px;
 
         margin-bottom: 60px;
+
+        @media(max-width: 1087px) {
+            font-size: 24px;
+        }
 
         p {
             &:not(:last-child) {

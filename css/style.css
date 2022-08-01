@@ -90,6 +90,12 @@ html {
   margin-bottom: 53px;
 }
 
+@media (max-width: 1087px) {
+  .watch__title {
+    font-size: 16px;
+  }
+}
+
 .watch__text-large {
   font-family: inherit;
   font-weight: 300;
@@ -97,6 +103,12 @@ html {
   line-height: 230px;
   color: #272727;
   margin-bottom: 43px;
+}
+
+@media (max-width: 1087px) {
+  .watch__text-large {
+    font-size: 140px;
+  }
 }
 
 .watch__info {
@@ -107,6 +119,12 @@ html {
   color: #161515;
   max-width: 575px;
   margin-bottom: 60px;
+}
+
+@media (max-width: 1087px) {
+  .watch__info {
+    font-size: 24px;
+  }
 }
 
 .watch__info p:not(:last-child) {
