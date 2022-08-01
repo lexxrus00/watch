@@ -144,6 +144,7 @@ html {
 @media (max-width: 1087px) {
   .watch__action {
     max-width: 340px;
+    height: 50px;
   }
 }
 
@@ -166,6 +167,8 @@ html {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 170px;
             flex: 0 1 170px;
+    font-size: 24px;
+    line-height: 50px;
   }
 }
 
@@ -189,6 +192,8 @@ html {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 90px;
             flex: 0 1 90px;
+    font-size: 24px;
+    line-height: 50px;
   }
 }
 

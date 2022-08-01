@@ -168,6 +168,7 @@ html {
 
         @media(max-width: 1087px) {
             max-width: 340px;
+            height: 50px;
         }
     }
 
@@ -189,6 +190,8 @@ html {
 
         @media(max-width: 1087px) {
             flex: 0 1 170px;
+            font-size: 24px;
+            line-height: 50px;
         }
     }
 
@@ -210,6 +213,8 @@ html {
 
         @media(max-width: 1087px) {
             flex: 0 1 90px;
+            font-size: 24px;
+            line-height: 50px;
         }
 
     }
