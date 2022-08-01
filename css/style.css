@@ -139,6 +139,12 @@ html {
   height: 82px;
 }
 
+@media (max-width: 1087px) {
+  .watch__action {
+    max-width: 340px;
+  }
+}
+
 .watch__buy {
   display: block;
   -webkit-box-flex: 0;
@@ -151,6 +157,14 @@ html {
   font-weight: 300;
   text-align: center;
   line-height: 82px;
+}
+
+@media (max-width: 1087px) {
+  .watch__buy {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 170px;
+            flex: 0 1 170px;
+  }
 }
 
 .watch__price {
@@ -166,6 +180,14 @@ html {
   color: #272727;
   text-align: center;
   line-height: 82px;
+}
+
+@media (max-width: 1087px) {
+  .watch__price {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 90px;
+            flex: 0 1 90px;
+  }
 }
 
 .models {

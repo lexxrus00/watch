@@ -163,6 +163,10 @@ html {
         display: flex;
         max-width: 421px;
         height: 82px;
+
+        @media(max-width: 1087px) {
+            max-width: 340px;
+        }
     }
 
     // .watch__buy
@@ -180,6 +184,10 @@ html {
 
         text-align: center;
         line-height: 82px;
+
+        @media(max-width: 1087px) {
+            flex: 0 1 170px;
+        }
     }
 
     // .watch__price
@@ -197,6 +205,10 @@ html {
 
         text-align: center;
         line-height: 82px;
+
+        @media(max-width: 1087px) {
+            flex: 0 1 90px;
+        }
 
     }
 }
