@@ -1,0 +1,351 @@
+// Обнлуение стилей
+
+/*Обнуление стилей*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+
+}
+
+html {
+    /* по умолчанию */
+    font-size: 16px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+}
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap');
+
+// Layout
+
+[class*="__container"] {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+    font-family: 'League Spartan', 'sans-serif';
+}
+
+// Header
+
+.header {
+
+    background: #F8F8F8;
+
+    // .header__container
+
+    &__container {
+        padding: 104px 15px 168px 15px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    // .header__watch
+
+    &__watch {}
+
+    // .header__image
+
+    &__image {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+// WATCH BLOCK
+.watch {
+
+    // .watch__title
+
+    &__title {
+        font-family: inherit;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 44.64px;
+        color: #161515;
+
+        margin-bottom: 53px;
+    }
+
+    // .watch__text-large
+
+    &__text-large {
+        font-family: inherit;
+        font-weight: 300;
+        font-size: 250px;
+        line-height: 230px;
+        color: #272727;
+
+        margin-bottom: 43px;
+
+        @media(max-width: 1087px) {}
+    }
+
+    // .watch__info
+
+    &__info {
+        font-family: inherit;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 50px;
+        color: #161515;
+
+        max-width: 575px;
+
+        margin-bottom: 60px;
+
+        p {
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+
+    // .watch__action
+
+    &__action {
+        display: flex;
+        max-width: 421px;
+        height: 82px;
+    }
+
+    // .watch__buy
+
+    &__buy {
+        display: block;
+        flex: 0 1 278px;
+        height: inherit;
+
+        background: #161515;
+
+        color: #ffff;
+        font-size: 32px;
+        font-weight: 300;
+
+        text-align: center;
+        line-height: 82px;
+    }
+
+    // .watch__price
+
+    &__price {
+        flex: 0 1 143px;
+        height: inherit;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 28px rgba(214, 214, 214, 0.25);
+
+        font-size: 32px;
+        font-weight: 300;
+        color: #272727;
+
+        text-align: center;
+        line-height: 82px;
+
+    }
+}
+
+.models {
+
+    background: #FFFFFF;
+
+    // .models__container
+
+    &__container {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+
+    // .models__title
+
+    &__title {
+        font-family: inherit;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 45px;
+        text-align: center;
+
+        margin-bottom: 84px;
+
+        span {
+            font-weight: 400;
+            font-size: 72px;
+            text-transform: capitalize;
+            line-height: 81px;
+        }
+
+    }
+
+    // .models__items
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+
+
+
+    }
+
+    // .models__item
+
+    &__item {
+
+
+        &:not(:last-child) {
+            margin-bottom: 84px;
+        }
+
+
+    }
+
+    // .models__image
+
+    &__image {
+
+        margin: 0 auto 67px auto;
+        max-width: 417px;
+
+        height: 630px;
+        background: #F8F8F8;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    // .models__info
+
+    &__info {
+        max-width: 510px;
+    }
+
+    // .models__name
+
+    &__name {
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+
+        margin-bottom: 20px;
+
+    }
+
+    // .models__description
+
+    &__description {
+        // max-width: 510px;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 50px;
+        text-align: center;
+
+        // margin: 0 auto;
+    }
+}
+
+// PRODUCT
+
+.product {
+
+    // .product__container
+
+    &__container {
+        padding-bottom: 142px;
+    }
+
+    // .product__title
+
+    &__title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: center;
+        color: #161515;
+
+        margin-bottom: 60px;
+
+        &::after {
+            content: '';
+            max-width: 178px;
+            height: 1px;
+
+            margin: 0 auto;
+            display: block;
+
+            background: #707070;
+        }
+    }
+
+    // .product__subtitle
+
+    &__subtitle {
+        max-width: 515px;
+        margin: 0 auto;
+
+        text-align: center;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 40px;
+
+        a {
+            color: #BB8B5D;
+            text-decoration: underline;
+        }
+    }
+}
