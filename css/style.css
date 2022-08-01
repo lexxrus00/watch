@@ -108,6 +108,7 @@ html {
 @media (max-width: 1087px) {
   .watch__text-large {
     font-size: 140px;
+    line-height: 120px;
   }
 }
 
@@ -124,6 +125,7 @@ html {
 @media (max-width: 1087px) {
   .watch__info {
     font-size: 24px;
+    margin-bottom: 30px;
   }
 }
 
