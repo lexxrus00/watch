@@ -77,6 +77,12 @@ html {
   gap: 50px;
 }
 
+@media (max-width: 767.98px) {
+  .header__container {
+    padding: 80px 15px;
+  }
+}
+
 .header__image img {
   max-width: 100%;
 }
@@ -112,6 +118,14 @@ html {
   }
 }
 
+@media (max-width: 767.98px) {
+  .watch__text-large {
+    font-size: 100px;
+    line-height: 90px;
+    margin-bottom: 20px;
+  }
+}
+
 .watch__info {
   font-family: inherit;
   font-weight: 300;
@@ -126,6 +140,14 @@ html {
   .watch__info {
     font-size: 24px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .watch__info {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
   }
 }
 
@@ -145,6 +167,12 @@ html {
   .watch__action {
     max-width: 340px;
     height: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .watch__action {
+    height: 40px;
   }
 }
 
@@ -172,6 +200,13 @@ html {
   }
 }
 
+@media (max-width: 1087px) and (max-width: 767.98px) {
+  .watch__buy {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
 .watch__price {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 143px;
@@ -194,6 +229,13 @@ html {
             flex: 0 1 90px;
     font-size: 24px;
     line-height: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .watch__price {
+    font-size: 18px;
+    line-height: 40px;
   }
 }
 
